@@ -1,6 +1,3 @@
-Aqui está o **README.md** adaptado para a **versão v0.3.0**, tratando-a como a versão atual e mais recente do projeto (sem referências à v0.4.0 ou superiores como lançadas):
-
-```markdown
 # Agenda de Contatos
 
 Projeto didático desenvolvido em Java para acompanhar a evolução dos conceitos trabalhados na disciplina de Programação Orientada a Objetos.
@@ -89,21 +86,3 @@ O projeto continuará evoluindo.
 <!-- - `v0.2.0` — armazenamento com List e ArrayList; -->
 <!-- - `v0.3.0` — funcionalidade de alterar contato; -->
 - `v0.4.0` e posteriores — modularização, introdução de classes e objetos, encapsulamento, DAO, MVC, Swing, JDBC e banco de dados.
-
-## Controle de versões
-
-As versões estáveis do projeto são identificadas por tags Git.
-
-Exemplo:
-
-```text
-v0.0.0
-v0.1.0
-v0.2.0
-v0.3.0
-
-```
-
-```
-
-```
