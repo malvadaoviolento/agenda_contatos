@@ -6,8 +6,6 @@ bin/
 .metadata/
 .settings/
 
-# macOS
-.DS_Store
-
 # Arquivos temporários
 *.log
+
