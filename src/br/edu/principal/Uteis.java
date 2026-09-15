@@ -30,10 +30,10 @@ public class Uteis {
         sc.nextLine();
         return opc;
     }
-
-    public static void sair(boolean continuar) {
+    
+    public static boolean sair () {
     	System.out.println("Saindo da Agenda de Contatos...");
-        continuar = false;
+        return false;
     }
     
     public static void sobre() {
