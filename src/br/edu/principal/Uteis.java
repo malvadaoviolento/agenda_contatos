@@ -8,7 +8,7 @@ public class Uteis {
 	public static void mostraInicializacao() {
     	System.out.println("==========================");
         System.out.println("     AGENDA DE CONTATOS    ");
-        System.out.println("          v1.1.1           ");
+        System.out.println("          v2.1.0           ");
         System.out.println("==========================");
         System.out.println("Bem-vindo!");
     }
@@ -25,18 +25,20 @@ public class Uteis {
     }
     
     public static int selecionaOpcao(Scanner sc) {
+    	System.out.println("");
     	System.out.print("Escolha uma opção: ");
         int opc = sc.nextInt();
         sc.nextLine();
         return opc;
     }
-    
-    public static boolean sair () {
+
+    public static boolean sair() {
     	System.out.println("Saindo da Agenda de Contatos...");
         return false;
     }
     
     public static void sobre() {
-    	JOptionPane.showMessageDialog(null, "Desenvolvido por eu!");
+    	JOptionPane.showMessageDialog(null, 
+    			"Desenvolvido por Roger M. Sarmento!");
     }
 }
