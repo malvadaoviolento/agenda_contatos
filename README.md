@@ -20,7 +20,8 @@ Construir uma Agenda de Contatos completa, iniciando com uma solução procedura
 | v1.1.0 | List + ArrayList | Separação das responsabilidades e métodos em arquivos/classes utilitárias |
 | v1.1.1 | List + ArrayList | Correção de bug no fluxo de encerramento do sistema (opção Sair) |
 | v2.1.0 | Arquivo TXT (I/O Java) | Persistência de dados em arquivo texto utilizando `java.io` |
-| v3.0.0 | Classe e Objetos | Introdução à Programação Orientada a Objetos com a criação da classe `Contato` |
+| v3.0.0 | Classes e Objetos | Introdução à Programação Orientada a Objetos com a criação da classe `Contato` |
+| v3.1.0 | Coleção de Objetos | Armazenamento de objetos `Contato` utilizando `List<Contato>` |
 
 ---
 
@@ -141,9 +142,28 @@ Principais características e conceitos:
 
 ---
 
+### v3.1.0 — Coleção de Objetos
+
+Evolução da representação dos contatos utilizando uma coleção de objetos do tipo `Contato`.
+
+Nesta versão, os conceitos de `List` e `ArrayList`, já utilizados anteriormente com `String`, são aplicados à classe `Contato`, permitindo armazenar vários contatos em uma única coleção.
+
+Principais características e conceitos:
+- Revisão de `List`, `ArrayList` e Generics;
+- Criação de uma coleção `List<Contato>`;
+- Armazenamento de objetos `Contato` utilizando o método `add()`;
+- Recuperação de objetos da coleção utilizando `get()`;
+- Percurso da coleção utilizando `for-each`;
+- Acesso aos atributos dos objetos armazenados;
+- Introdução ao conceito de referência de objetos em coleções;
+- Comparação entre listas paralelas de `String` e uma única coleção de objetos;
+- Representação de cada contato como uma entidade completa dentro da coleção.
+
+---
+
 ## Versão Atual
 
-**v3.0.0** — Introdução à Programação Orientada a Objetos com classes e objetos.
+**v3.1.0** — Armazenamento de contatos em uma coleção de objetos `List<Contato>`.
 
 ---
 
@@ -165,3 +185,5 @@ As versões estáveis do projeto são identificadas por tags Git:
   - v2.1.0
 - v3
   - v3.0.0
+  - v3.1.0
+```
