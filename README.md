@@ -20,6 +20,7 @@ Construir uma Agenda de Contatos completa, iniciando com uma solução procedura
 | v1.1.0 | List + ArrayList | Separação das responsabilidades e métodos em arquivos/classes utilitárias |
 | v1.1.1 | List + ArrayList | Correção de bug no fluxo de encerramento do sistema (opção Sair) |
 | v2.1.0 | Arquivo TXT (I/O Java) | Persistência de dados em arquivo texto utilizando `java.io` |
+| v3.0.0 | Classe e Objetos | Introdução à Programação Orientada a Objetos com a criação da classe `Contato` |
 
 ---
 
@@ -120,9 +121,29 @@ Principais características e conceitos:
 
 ---
 
+### v3.0.0 — Introdução a Classes e Objetos
+
+Início da transição da abordagem procedural para a **Programação Orientada a Objetos (POO)**.
+
+Nesta versão é criada a classe `Contato`, permitindo representar um contato como uma entidade do sistema e agrupar suas informações em um único objeto.
+
+Principais características e conceitos:
+- Introdução ao paradigma de Programação Orientada a Objetos;
+- Comparação entre a abordagem procedural e a abordagem orientada a objetos;
+- Identificação e modelagem da entidade `Contato`;
+- Criação da classe `Contato`;
+- Definição dos atributos `nome`, `celular` e `email`;
+- Criação e instanciação de objetos;
+- Utilização do operador `new`;
+- Acesso aos atributos de um objeto;
+- Criação de diferentes objetos a partir da mesma classe;
+- Introdução aos conceitos de referência e estado de um objeto.
+
+---
+
 ## Versão Atual
 
-**v2.1.0** — Persistência de dados em arquivos TXT (`java.io`).
+**v3.0.0** — Introdução à Programação Orientada a Objetos com classes e objetos.
 
 ---
 
@@ -142,3 +163,5 @@ As versões estáveis do projeto são identificadas por tags Git:
   - v1.1.1
 - v2
   - v2.1.0
+- v3
+  - v3.0.0
